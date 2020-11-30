@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/color4"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textAlignment="center"
+            android:textColor="@color/color1"
+            android:text="Daftar Menu"/>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_weight="0.5"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/color1"
+                    android:onClick="kePaketA"
+                    android:text="Paket A" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_weight="0.5"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/color2"
+                    android:onClick="kePaketB"
+                    android:text="Paket B" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_weight="0.5"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/color3"
+                    android:onClick="kePaketC"
+                    android:text="Paket C" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_weight="0.5"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/color1"
+                    android:onClick="kePaketD"
+                    android:text="Paket D" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_weight="0.5"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/color5"
+                    android:onClick="kePaketE"
+                    android:text="Paket E" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_weight="0.5"
+                    android:layout_margin="8dp"
+                    android:backgroundTint="@color/color2"
+                    android:onClick="kePaketF"
+                    android:text="Paket F" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </TableLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Created By Nur Zain Pradana" />
+    </LinearLayout>
+
+</ScrollView>
